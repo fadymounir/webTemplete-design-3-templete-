@@ -1,0 +1,390 @@
+﻿/*start main rules*/
+
+*{box-sizing:border-box;}
+.container {width: 1170px;margin: auto;}   
+/*end main rules*/
+/*start header*/
+
+.header .slider {
+    background-image: url(../images/iStock_000022301980_Double-1170x500.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+    .header .slider .intro {
+        padding-top: 300px;
+        text-align: center;
+        color: #fff;
+    }
+
+    .header .slider .intro h2 {
+        margin: 0 auto;
+        font-size: 50px;
+        width: 700px;
+        border-top: 4px solid #fff;
+        border-bottom: 4px solid #fff;
+        padding: 5px 0;
+        
+    }
+    .header .slider .intro button {
+        background: none;
+        border: 2px solid #fff;
+        margin-top: 30px;
+        font-size: 20px;
+        color: #fff;
+        margin-top: 50px;
+    }
+    .header .slider .intro button:hover {background-color: #2ecc71;}
+.header .navbar {
+    background-color: #252f31;
+    color: #fff;
+    overflow: hidden;
+}
+    .header .navbar h2 {float: left;}
+    .header .navbar h2 span {color: #2ecc71;}
+    .header .navbar ul {
+        list-style: none;
+        padding-left: 0;
+        overflow: hidden;
+        float: right;
+    }
+.header .navbar ul li {padding-left:15px; float:left; font-size:20px}
+    .header .navbar ul li a {color: #fff;text-decoration: none;}
+        .header .nvabar ul li.act a,
+        .header .navbar ul li a:hover {color: #2ecc71;}
+/*end header*/
+/*start features*/
+.features{overflow:hidden;padding-top:30px;padding-bottom:80px;    }
+.features .feet{float:left;width:33.3333%;height:150px;}
+.features .feet h2 {color:#555;}
+.features .feet p{line-height:1.7;color:#888;text-align:justify;padding:20px;}
+/*end features*/
+/*start about me*/
+.about{background-color:#f2f2f2;overflow:hidden;}
+.about .info {padding:40px;float:left;width:60%;}
+.about .info .hobbies{overflow:hidden;margin:5px;}
+.about .info .hobbies .content{float:left;width:50%;min-height:100px;overflow:hidden;}
+.about .info .hobbies .content .icon{float:left;width:20%;}
+.about .info .hobbies .content .icon img{max-width:100%;}
+.about .info .hobbies .content .text{float:left;width:80%;}
+.about .info > p{color:#666;line-height:1.7;}
+.hobbies  div
+{
+    padding-left:10px;
+    line-height:1.3;
+}
+/*end about me*/
+
+/*start my skills*/
+.my_skills
+{
+    padding-top:30px;
+    padding-bottom:30px;
+      overflow:hidden;
+}
+
+.my_skills .skills,
+.my_skills .progres
+{
+    width:50%;
+    float:left;
+}
+
+.my_skills .skills h2
+{
+margin:25px  0 20px 40px;
+color:#555;
+}
+
+.my_skills .skills p
+{
+margin:0 0 10px 40px;
+line-height:1.7;
+color:#666;
+}
+
+.my_skills .skills p:last-of-type
+{
+margin-top:25px;
+}
+
+.my_skills .skills button
+{
+        background: none;
+        border: 2px solid #2ecc71;
+        padding:10px 30px;
+        font-size: 20px;
+        color: #2ecc71;
+        margin-left:40px;
+        margin-top:10px;
+}
+.my_skills .skills button:hover
+ {
+        background-color: #2ecc71;
+        color:#fff;
+    }
+
+
+.my_skills .progres .tech
+{
+      margin-left:30px;
+}
+.my_skills .progres .tech h3{
+color:#555;
+
+}
+
+.my_skills .progres .tech div{
+background-color:#f2f2f2;
+height:25px;
+text-align:right;
+}
+
+.my_skills .progres .tech div span{
+background-color:#2dcc70;
+height:25px;
+display:block;
+line-height:25px;
+color:#fff;
+font-weight:bold;
+}
+
+
+
+
+/*end my skills*/
+
+/*start resume me */
+.resume 
+{
+    background-color:#f2f2f2;
+       padding-top:30px;
+    padding-bottom:30px;
+    text-align:center;
+}
+
+
+.resume h2
+{
+margin:25px  0 20px 40px;
+color:#555;
+}
+
+.resume p
+{
+margin:0 0 10px 40px;
+line-height:1.7;
+color:#666;
+}
+
+.resume button
+{
+        background: none;
+        border: 2px solid #2ecc71;
+        padding:10px 30px;
+        font-size: 20px;
+        color: #2ecc71;
+        margin-left:40px;
+        margin-top:10px;
+}
+.resume button:hover
+ {
+        background-color: #2ecc71;
+        color:#fff;
+    }
+
+/*end resume me*/
+
+
+
+/*start my education*/
+.my_edy,.work_
+{
+    padding-top:30px;
+    padding-bottom:30px;
+    overflow:hidden;
+}
+
+.my_edy .edy,
+.work_ .workexp
+{
+    width:50%;
+    float:left;
+    margin-right:5%;
+}
+
+.my_edy .exp,.work_ .exp
+{
+    width:45%;
+    float:left;
+}
+
+.my_edy .edy h2,.work_ h2,.my_edy .exp h3,.work_ .exp h3
+{
+color:#555;
+margin:25px  0 20px 40px;
+display:block
+}
+
+.my_edy .exp span,.work_ .exp span
+{
+    display:block;
+
+}
+
+.my_edy .exp span:first-of-type,.work_ .exp span:first-of-type
+{
+ margin:25px  0 20px 40px;
+ display:block 
+}
+
+.my_edy .exp span:last-of-type,.work_ .exp span:last-of-type
+{
+    margin:25px  0 20px 40px;
+  display:inline;
+  background-color: #2ecc71;
+  color:#fff;
+  border-radius:5px;
+  padding:5px;
+
+}
+
+
+.my_edy p,.work_ p
+{
+margin:10px 0 10px 40px;
+line-height:1.7;
+color:#666;
+}
+/*end my education*/
+
+
+
+
+/*start testmono me */
+.testmono
+{
+    background-color:#f2f2f2;
+       padding-top:30px;
+    padding-bottom:30px;
+    text-align:center;
+}
+
+.testmono h3
+{
+        background-color: #2ecc71;
+        color:#fff;
+        display:block;
+        display:inline;
+        padding:5px;
+        border-radius:10px;
+}
+
+.testmono p
+{
+margin:0 0 10px 40px;
+line-height:1.8;
+color:#666;
+font-size:20px;
+font-style:italic;
+}
+
+
+
+/*end testmono me*/
+
+/*start portflio*/
+
+
+.portflio
+{
+    padding-top:30px;
+    padding-bottom:30px;
+    background-color: #610B21;
+    margin:0px auto;
+    text-align:center;
+
+}
+
+.portflio h1{color:#fff;}
+
+.portflio p{color:#F6CECE;}
+
+
+.portflio .ourwork
+{
+    overflow:hidden;
+}
+
+.portflio .ourwork >div
+{ 
+    float:left;
+    width:32%;
+    margin-bottom:15px;
+    margin-right:1.333%;
+    border-radius:50%;
+            transition:all 1.5s ease-in-out;
+
+}
+
+.portflio .ourwork >div:hover
+{ 
+    border-radius:0%;
+}
+
+
+.portflio .ourwork >div img{ width:92%;margin:10px; border-radius:50%;         transition:all .5s ease-in-out;}
+.portflio .ourwork >div img:hover{border-radius:0%;}
+
+/*end portflio*/
+
+/*start contact me */
+
+.contact_me
+{
+    background-color:#252f31;
+    overflow:hidden;
+    padding-left:40px;
+    line-height:1.7;
+}
+
+.contact_me h2{color:#fff;}
+.contact_me p{color:#6a6e71;}
+.contact_me p span{color:#fff;}
+
+.contact_me .info ,.contact_me .form
+{
+    width:45%;
+    float:left;
+    margin-left:5%;
+}
+
+.contact_me  .form label
+{
+    display:block;
+    color:#d1d6da;
+    margin-bottom:5px;
+}
+.contact_me .form textarea{height:300px;}
+.contact_me .form input[type="text"],.contact_me .form textarea
+{
+background-color:#4b5557;
+color:#fff;
+padding:10px;
+border:0px;
+width:75%;
+margin-bottom:10px;
+}
+.contact_me .form input[type="submit"]{background-color: #252f31;color: #fff;border:2px solid #fff;padding:10px;margin-bottom:20px;}
+.contact_me .form input[type="submit"]:hover{background-color: #fff;color: #252f31;}
+/*end conatact me*/
+/*start footer*/
+.footer{background-color:#191e22;color:#6a5e71;padding:5px;text-align:center;}
+.footer span:first-of-type {color: #fff;}
+.footer span:last-of-type {color: #2ecc71;}
+.footer  ul{list-style:none;padding-left:0}
+.footer ul li{display:inline;}
+.footer ul li:hover{color:#fff;}
+
+
+/*end footer*/
